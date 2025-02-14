@@ -36,7 +36,9 @@ I compiled the model with the binary cross-entropy loss and the Adam optimizer, 
 Then I used evaluate() on the test set to assess how well the model generalizes to unseen data and provides the loss and accuracy values to judge the model's overall performance.
 
 **Model Evaluation Output**
+
      Loss: 0.5550
+     
      Accuracy: 0.7258
 
 **Output Interpretation**
