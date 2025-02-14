@@ -37,15 +37,15 @@ Then I used evaluate() on the test set to assess how well the model generalizes 
 
 **Model Evaluation Output**
 
-     Loss: 0.5550
+Loss: 0.5550
      
-     Accuracy: 0.7258
+Accuracy: 0.7258
 
 **Output Interpretation**
 
-1. Accuracy (0.7258 or 72.58%): The model has an accuracy of 72.58% on the test set. This means that approximately 72.58% of the time, the model correctly predicted whether a charity application would be successful or not. This is a fairly decent start, but I would want to aim for higher accuracy if taking this project further.
+Accuracy (0.7258 or 72.58%): The model has an accuracy of 72.58% on the test set. This means that approximately 72.58% of the time, the model correctly predicted whether a charity application would be successful or not. This is a fairly decent start, but I would want to aim for higher accuracy if taking this project further.
 
-2. Loss (0.5550): The loss value of 0.5550 (binary cross-entropy loss) indicates how well the model’s predictions align with the true labels. In binary classification, lower loss values represent better model performance, with a value closer to 0 indicating near-perfect predictions, but it suggests there is room for improvement. 
+Loss (0.5550): The loss value of 0.5550 (binary cross-entropy loss) indicates how well the model’s predictions align with the true labels. In binary classification, lower loss values represent better model performance, with a value closer to 0 indicating near-perfect predictions, but it suggests there is room for improvement. 
 
 **Potential Future Improvements**
 
