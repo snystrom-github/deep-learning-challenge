@@ -36,26 +36,18 @@ I compiled the model with the binary cross-entropy loss and the Adam optimizer, 
 Then I used evaluate() on the test set to assess how well the model generalizes to unseen data and provides the loss and accuracy values to judge the model's overall performance.
 
 **Model Evaluation Output**
-
-     •	Loss: 0.5550 (approx. 0.55499)
-
-     •	Accuracy: 72.58% (approx. 0.7258)
+     Loss: 0.5550
+     Accuracy: 0.7258
 
 **Output Interpretation**
 
-**1.	Accuracy (0.7258 or 72.58%):**
+1. Accuracy (0.7258 or 72.58%): The model has an accuracy of 72.58% on the test set. This means that approximately 72.58% of the time, the model correctly predicted whether a charity application would be successful or not. This is a fairly decent start, but I would want to aim for higher accuracy if taking this project further.
 
-     o	The model has an accuracy of 72.58% on the test set. This means that approximately 72.58% of the time, the model correctly predicted whether a charity application would be successful or not. This is a fairly decent start, but I would want to aim for higher accuracy if taking this project further.
-
-**2.	Loss (0.5550):**
-
-     o	The loss value of 0.5550 (binary cross-entropy loss) indicates how well the model’s predictions align with the true labels. In binary classification, lower loss values represent better model performance, with a value closer to 0 indicating near-perfect predictions, but it suggests there is room for improvement. 
+2. Loss (0.5550): The loss value of 0.5550 (binary cross-entropy loss) indicates how well the model’s predictions align with the true labels. In binary classification, lower loss values represent better model performance, with a value closer to 0 indicating near-perfect predictions, but it suggests there is room for improvement. 
 
 **Potential Future Improvements**
 
-     •	I could add more complexity to the model with more hidden layers or notes. 
-
-     •	I could experiment with varying the number of epochs, batch size, and learning rate. 
-
-     •	I could look at metrics such as Precision, Recall, or F1-score.
+ I could add more complexity to the model with more hidden layers or notes. 
+ I could experiment with varying the number of epochs, batch size, and learning rate. 
+ I could look at metrics such as Precision, Recall, or F1-score.
 
