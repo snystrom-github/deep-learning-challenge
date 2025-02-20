@@ -7,11 +7,11 @@ Sources: The sources for my code were solved class exercises, StackOverflow, Cha
 
 **Purpose**
 
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. The model used the provided data set to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. The goal is a target predicctive accuracy higher than 75 percent. 
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. The model used the provided data set to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. The goal is a target predictive accuracy higher than 75 percent. 
 
 **Data Preprocessing and Cleaning**
 
-First I preprocessed the data by loading the dataset (charity_data.csv) into a pandas DataFrame and displayed the first few rows using head(). I dropped the non-beneficial columns “EIN” and “NAME” and removed them from the dataset using the drop() method. Then I used nunique() to determine the number of unique values in each column to see which features were categorical and which could be used for modeling.
+First I preprocessed the data by loading the dataset (charity_data) into a pandas DataFrame and displayed the first few rows using head(). I dropped the non-beneficial columns “EIN” and “NAME” and removed them from the dataset using the drop() method. Then I used nunique() to determine the number of unique values in each column to see which features were categorical and which could be used for modeling.
 
 **Handling Categorical Features**
 
