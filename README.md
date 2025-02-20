@@ -59,3 +59,5 @@ Potential Future Improvements
 
 •	I could look at metrics such as Precision, Recall, or F1-score.
 
+•	I could use Random Forest or Gradient Boosting methods to try to achieve a higher accuracy.
+
