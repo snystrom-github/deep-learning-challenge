@@ -5,7 +5,7 @@ Challenge 21
 
 Purpose
 
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. The model used the provided data set to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. 
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. The model used the provided data set to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. The goal is a target predicctive accuracy higher than 75 percent. 
 
 Data Preprocessing and Cleaning
 
@@ -47,7 +47,7 @@ Model Evaluation Output
 
 Output Interpretation
 
-1.	Accuracy (0.7258): The model has an accuracy of 72.58% on the test set. This means that approximately 72.58% of the time, the model correctly predicted whether a charity application would be successful or not. This is a fairly decent start, but I would want to aim for higher accuracy if taking this project further.
+1.	Accuracy (0.7258): The model has an accuracy of 72.58% on the test set. This means that approximately 72.58% of the time, the model correctly predicted whether a charity application would be successful or not. This is a fairly decent start, but it falls short of the 75% target predictive accuracy. 
 
 2.	Loss (0.5550): The loss value of 0.5550 (binary cross-entropy loss) indicates how well the model’s predictions align with the true labels. In binary classification, lower loss values represent better model performance, with a value closer to 0 indicating near-perfect predictions, but it suggests there is room for improvement. 
 
