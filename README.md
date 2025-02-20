@@ -1,6 +1,8 @@
 # deep-learning-challenge
 Challenge 21
 
+Sources: The sources for my code were solved class exercises, StackOverflow, ChatGPT, YouTube, Google, Google Collab, and GitHub.
+
 **ANALYSIS**
 
 **Purpose**
